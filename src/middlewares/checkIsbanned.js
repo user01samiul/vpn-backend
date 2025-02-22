@@ -27,10 +27,11 @@ export const isBanned = asyncHandler(async (req, res, next) => {
   }
 
   if (userData[0].is_banned == "active") {
-    return res.status(403).json(new ApiResponse(403, {}, "User is banned"));
+    return res.status(403).json(new ApiResponse(403, {}, "User is banned")); //res 2
   } else if (userData[0].is_banned == "disabled") {
     console.log("access granted");
     req.accessStatus = "granted";
+    req.userData = userData;
     next(); //go to next middleware
   }
 });
