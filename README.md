@@ -1,4 +1,4 @@
-# Backend API
+# VPN Backend API
 
 This backend is a secure and scalable server-side application that provides authentication, user management, and VPN-related functionalities. It is built using **Node.js**, **Express**, and **MySQL**, with **JWT authentication** for security.
 
@@ -40,9 +40,9 @@ This backend is a secure and scalable server-side application that provides auth
    JWT_SECRET=your_secret_key
    ```
 
-4. **Run the application**
+4. **Run the application in development server**
    ```sh
-   npm start
+   npm run dev
    ```
 
 ## API Endpoints
