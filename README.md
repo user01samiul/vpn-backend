@@ -32,8 +32,8 @@ This backend is a secure and scalable server-side application that provides auth
 
 3. **Set up environment variables** (Create a `.env` file and configure the following variables)
    ```env
-   PORT=5000
-   DB_HOST=your_mysql_host
+   PORT=3000
+   HOST=your_mysql_host
    DB_USER=your_mysql_user
    DB_PASSWORD=your_mysql_password
    DB_NAME=your_mysql_database
