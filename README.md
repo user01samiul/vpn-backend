@@ -21,7 +21,7 @@ This backend is a secure and scalable server-side application that provides auth
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/backend.git
+   git clone https://github.com/user01samiul/vpn-backend.git
    cd backend
    ```
 
