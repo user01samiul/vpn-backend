@@ -1,6 +1,6 @@
 # VPN Backend API
 
-This backend is a secure and scalable server-side application that provides authentication, user management, and VPN-related functionalities. It is built using **Node.js**, **Express**, and **MySQL**, with **JWT authentication** for security.
+This vpn-backend is a secure and scalable server-side application that provides authentication, user management, and VPN-related functionalities. It is built using **Node.js**, **Express**, and **MySQL**, with **JWT authentication** for security.
 
 ## Features
 
@@ -21,8 +21,8 @@ This backend is a secure and scalable server-side application that provides auth
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/user01samiul/vpn-backend.git
-   cd backend
+   git clone https://github.com/yourusername/vpn-backend.git
+   cd vpn-backend
    ```
 
 2. **Install dependencies**
@@ -32,17 +32,17 @@ This backend is a secure and scalable server-side application that provides auth
 
 3. **Set up environment variables** (Create a `.env` file and configure the following variables)
    ```env
-   PORT=3000
-   HOST=your_mysql_host
+   PORT=5000
+   DB_HOST=your_mysql_host
    DB_USER=your_mysql_user
    DB_PASSWORD=your_mysql_password
    DB_NAME=your_mysql_database
    JWT_SECRET=your_secret_key
    ```
 
-4. **Run the application in development server**
+4. **Run the application**
    ```sh
-   npm run dev
+   npm start
    ```
 
 ## API Endpoints
@@ -63,14 +63,14 @@ This backend is a secure and scalable server-side application that provides auth
 
 For production deployment, you can use **Docker**:
 ```sh
-docker build -t backend .
-docker run -p 5000:5000 backend
+docker build -t vpn-backend .
+docker run -p 5000:5000 vpn-backend
 ```
 
 Or use **PM2** to run it as a background process:
 ```sh
 npm install -g pm2
-pm2 start server.js --name backend
+pm2 start server.js --name vpn-backend
 ```
 
 ## Contributing
