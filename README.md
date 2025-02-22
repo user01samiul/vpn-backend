@@ -52,8 +52,8 @@ This vpn-backend is a secure and scalable server-side application that provides 
 - `POST /api/vpn/access` - Login and get JWT token
 
 ### User Management
-- `GET /api/vpn/updateprofile` - Get user profile (Requires Auth)
-- `PUT /api/vpn/appupdate` - Update user details (Requires Auth)
+- `POST /api/vpn/updateprofile` - Get user profile (Requires Auth)
+- `POST /api/vpn/appupdate` - Update user details (Requires Auth)
 
 
 ## Deployment
