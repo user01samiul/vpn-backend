@@ -20,6 +20,6 @@ app.use(cookieParser());
 
 //routes
 import homeRouter from "./routes/home.routes.js";
-app.use("/api/dunevpn", homeRouter);
+app.use("/api/vpn", homeRouter);
 
 export { app };

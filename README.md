@@ -48,16 +48,13 @@ This vpn-backend is a secure and scalable server-side application that provides 
 ## API Endpoints
 
 ### Authentication
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login and get JWT token
+- `POST /api/vpn/register` - Register a new user
+- `POST /api/vpn/access` - Login and get JWT token
 
 ### User Management
-- `GET /api/users/profile` - Get user profile (Requires Auth)
-- `PUT /api/users/update` - Update user details (Requires Auth)
+- `GET /api/vpn/updateprofile` - Get user profile (Requires Auth)
+- `PUT /api/vpn/appupdate` - Update user details (Requires Auth)
 
-### Subscription
-- `POST /api/subscription` - Subscribe to a VPN plan
-- `GET /api/subscription/status` - Check subscription status
 
 ## Deployment
 

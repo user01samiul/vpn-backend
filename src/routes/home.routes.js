@@ -18,7 +18,7 @@ router
   .post(verifyJWT, isBanned, giveAccessToUser)
   .get(rejectGetRequest);
 router
-  .route("/createuser")
+  .route("/register")
   .post(verifyJWT, isBanned, createUser)
   .get(rejectGetRequest);
 router
