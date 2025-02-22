@@ -1,0 +1,2 @@
+export const DB_NAME = "DuneVPN";
+const JWT = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbWkiLCJ1c2VySWQiOjEyMywiaWF0IjoxNzQwMTUwNDQxLCJleHAiOjE3NDA0MDk2NDF9.g6rQwOv19IOWyWfhFkTkwVRs7Ohoo1FJ7nS_X0hoQJo" //3 days

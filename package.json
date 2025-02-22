@@ -1,0 +1,31 @@
+{
+  "name": "dunevpn_backend",
+  "version": "1.0.0",
+  "description": "This is a express backend for DuneVPN",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "dunevpn",
+    "dune",
+    "vpn",
+    "backend"
+  ],
+  "author": "Samiul Islam",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1"
+  }
+}
