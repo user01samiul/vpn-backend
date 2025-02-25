@@ -2,18 +2,12 @@ import dotenv from "dotenv";
 import mysql from "mysql";
 import util from "util";
 import { app } from "./app.js";
+import connection from "./db/index.js"
 
 dotenv.config({
   path: "./.env",
 });
 
-// Create a MySQL connection
-const connection = mysql.createConnection({
-  host: "localhost",
-  user: "sami",
-  password: "samiul99",
-  database: "test",
-});
 
 // Convert connection.query to return a promise
 const query = util.promisify(connection.query).bind(connection);
